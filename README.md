@@ -32,7 +32,7 @@
 - Tab 2: Accessibility Index
 - Tab 3: Combined Index
 
-  ### How to interpert the scores (high vs low)
+  ### How to interpret the scores (high vs low)
 
   ---
 
