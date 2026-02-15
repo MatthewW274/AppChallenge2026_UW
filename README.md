@@ -1,5 +1,5 @@
 # AppChallenge2026_UW
-*Toronto Bike Acessibility - Safety Index, Acessibility Index and Combined Index* 
+*Toronto Bike Accessibility - Safety Index, Accessibility Index and Combined Index* 
 
 ## Links 
 - **Live App:** <link>
