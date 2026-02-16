@@ -44,15 +44,15 @@ In any layer, the higher the score, the harder it is to be comfortable biking in
 ---
 
 ## Data Sources
-| Source | Data Provider |
-|---|---|
-|Road/Trail Centrelines|City of Toronto| 
-|Bicycle Theft Reports|Toronto Police Services|
-|Cyclists Killed or Seriously Injured|Toronto Police Services|
-|Toronto Cycling Network|City of Toronto|
-|Toronto Bike Racks (Outdoor)|City of Toronto|
-|Toronto Bikeshare Stations|City of Toronto|
-|Toronto Intersections|City of Toronto|
+  | Source | Data Provider |
+  |---|---|
+  |Road/Trail Centrelines|City of Toronto| 
+  |Bicycle Theft Reports|Toronto Police Services|
+  |Cyclists Killed or Seriously Injured|Toronto Police Services|
+  |Toronto Cycling Network|City of Toronto|
+  |Toronto Bike Racks (Outdoor)|City of Toronto|
+  |Toronto Bikeshare Stations|City of Toronto|
+  |Toronto Intersections|City of Toronto|
 
 ## Methods 
 Methods are mainly outlined in our Jupyter Notebook, but a glossary of notebook steps has been put together under each category here to help with ease of code navigation.
