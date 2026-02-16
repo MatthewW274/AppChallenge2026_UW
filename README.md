@@ -40,26 +40,18 @@ I am a fourth-year student at the University of Waterloo majoring in Geography a
   ---
 
   ## Data Sources
-  ### Base 
-  - City of Toronto Centrelines (City of Toronto Open Data)
-
-### Safety 
-- Toronto Police Services Cyclists Killed and Seriously Injured
-- Toronto Police Services Bicycle Thefts
-- City of Toronto Cycling Infrastructure Open Data
-
-### Accessibility 
-- City of Toronto Outdoor Bicycle Parking
-- City of Toronto Bikeshare Stations
-
-    ### Speed 
-    - Intersections
-    - Traffic signals
-    - etc.
-  ---
+  | Source | Data Provider |
+|---|---|
+|Road/Trail Centrelines|City of Toronto| 
+|Bicycle Theft Reports|Toronto Police Services|
+|Cyclists Killed or Seriously Injured|Toronto Police Services|
+|Toronto Cycling Network|City of Toronto|
+|Toronto Bike Racks (Outdoor)|City of Toronto|
+|Toronto Bikeshare Stations|City of Toronto|
+|Toronto Intersections|City of Toronto|
 
 ## Methods 
-Methods are mostly outlined in our Jupyter Notebook, but a glossary of notebook steps has been put together under each category here to help with ease of code navigation.
+Methods are mainly outlined in our Jupyter Notebook, but a glossary of notebook steps has been put together under each category here to help with ease of code navigation.
 ### Preprocessing
 - Import Packages
 - Input Data Paths
