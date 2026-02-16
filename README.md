@@ -37,11 +37,13 @@ I am a fourth-year student at the University of Waterloo majoring in Geography a
 - Tab 2: Accessibility Index
 - Tab 3: Combined Index
 
-  ### How to interpret the scores (high vs low)
+### How to interpret the scores (high vs low)
 
-  ---
+In any layer, the higher the score, the harder it is to be comfortable biking in that area. This can be caused by factors including but not limited to unsafe bike infrastructure, high bike theft, and a high density of bike collisions with cars.
 
-  ## Data Sources
+---
+
+## Data Sources
 | Source | Data Provider |
 |---|---|
 |Road/Trail Centrelines|City of Toronto| 
