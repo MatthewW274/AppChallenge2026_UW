@@ -32,6 +32,7 @@ I am a fourth-year student at the University of Waterloo majoring in Geography a
 
 ## App Overview 
 ### Study Area 
+Our study area is limited to the City of Toronto's city limits. This area has a diverse array of biking infrastructure that will help us analyze the ease and comfort of biking throughout the city.
 ### Three Tabs 
 - Tab 1: Safety Index
 - Tab 2: Accessibility Index
