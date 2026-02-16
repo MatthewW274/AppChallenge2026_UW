@@ -1,4 +1,4 @@
-# AppChallenge2026_UW
+# Team Just Making Maps (JMM)
 *Toronto Bike Accessibility - Safety Index, Accessibility Index and Combined Index* 
 
 ## Links 
@@ -7,7 +7,9 @@
 -  **Submission Link:** <link>
 
 ## Team 
-- <Name> - <Role>
+- Matthew Woodward
+- I am a fourth-year student at the University of Waterloo majoring in Geography and Environmental Management and minoring in Earth Sciences. I was a gold medalist at the International Geography Olympiad, placing eighteenth worldwide in 2022. I am also a recent inductee into the Royal Canadian Geographical Society’s College of Fellows. My areas of interest include geographic education, GIS applications in species conservation, statistical analysis of meteorological flux data, and GIS applications in tracking and documenting meteorological hazards. You can find more of my geographic education work on the True North Geography YouTube channel, which aims to increase the accessibility of geographic education to Canadians by bringing in-field examples of geographic processes to a free platform.
+  
 - <Name> - <Role>
 - <Name> - <Role>
 
@@ -37,38 +39,47 @@
   ---
 
   ## Data Sources
-  ### Base / Boundary
-  - City of Toronto Boundary
+  ### Base 
+  - City of Toronto Centrelines (City of Toronto Open Data)
 
 ### Safety 
-- Accidents
-- Theft
-- etc.
+- Toronto Police Services Cyclists Killed and Seriously Injured
+- Toronto Police Services Bicycle Thefts
+- City of Toronto Cycling Infrastructure Open Data
 
 ### Accessibility 
-- Bike racks
-- Bike lockers
-- etc.
-
-  ### Connectivity
-  - Cycling network
-  - (road type context)
-  - etc.
+- City of Toronto Outdoor Bicycle Parking
+- City of Toronto Bikeshare Stations
 
     ### Speed 
     - Intersections
     - Traffic signals
-    - Time of day limitation note 
     - etc.
   ---
 
 ## Methods 
-### Preprocessing 
+Methods are mostly outlined in our Jupyter Notebook, but a glossary of notebook steps has been put together under each category here to help with ease of code navigation.
+### Preprocessing
+- Import Packages
+- Input Data Paths
+- Add Bikeshare Stations
+- Limit Centrelines to Road/Trail Network
+- Spatial Join Bike Lane Information to Road/Trail Network
+- Create Roadway Buffers
+- Create Level of Traffic Stress Classification
 ### Safety Index Method 
+- Create Theft Density Raster
+- Create Accident Density Raster
+- Create LST Raster
 ### Accessibility Index Method 
+- Create Bike Rack Density Raster
+- Create Bikeshare Density Raster
 ### Combined Index Method
-### Validation 
-
+- Reclassify all Raster from 1-5
+- Sum Rasters
+- Overlay Safety and Accessibility Indices
+- Add Surface Information to Centrelines
+- Clean up Centrelines Layer
 
 --- 
 
@@ -81,9 +92,6 @@
 
 --- 
 
-
-
-
 ## Results and Key Takeaways 
 ### Patterns 
 ### Notable area 
@@ -92,17 +100,23 @@
 --- 
 
 ## Limitations
-### Data limitations 
+### Data limitations
+During our analysis, a number of limitations were present throughout our various datasets. Firstly, it was thought as potentially more advantageous to measure accessibility of cycling utilizing distance to bike racks and bike share stations rather than density. However, the distance accumulation tool refused to cover the entire study area during our analysis, so in the interest of proper raster math expressions, we opted to utilize the kernel density tool for these parameters instead. The utilization of the kernel density tool includes multiple limitations as well, chiefly pertaining to the selected cell size and bandwidth. A cell size of 25 square metres was chosen for this analysis in order to initially preserve block to block variation in our data throughout our study area. A bandwidth of 300 metres was chosen as it was the width of approximately 3 city blocks. Obviously, our analysis may change if these quantities changed, but we believe that these two choices were the best for our analysis. Another limitation of this analysis is data loss during reclassification of rasters. This was a necessary step in order to come up with a final cycling comfort index, but it should be acknowledged that anytime rasters are reclassified, variation in the data is lost. Furthermore, some data variation is lost in the Add Surface Information step of our tool. This is because the statistic it calculates is the average value of raster cells that underlay each road/trail section. However, the City of Toronto's centrelines dataset has very short road/trail sections, so this loss is insignificant. While a Raster to Polyline tool could have been used to preserve variation, it was decided that a more aesthetically appealing layer was valued over this information loss. Thus, the Add Surface Information tool was utilized. 
 ### Assumptions 
+For the LTS (Level of Traffic Stress) analysis, 5 classes were outlined. Typically, 4 would be utilized as outlined in Raj's cited ECCE blog post, but due to the variation of bike infrastructure and road types throughout Toronto, we felt that 5 classes would be more appropriate (Ubhi, 2021). Note that routes like the 401, 407, or any other major freeway were excluded from the road/bike safety analysis. This is because they are illegal to bike on.
+
+Additionally, the average biking speed was assumed to be ...
 ### Time of day / seasonality 
+Our method of analysis is limited by the time of day. Perceived safety is variable depending on a number of factors, including light levels (Boyce et. al, 2000). Additionally, our method does not include any information on when snow is cleared on certain routes, which would impact the accessibility of biking to certain neighbourhoods during Canadian winters (Sears et. al, 2012.
 ### Next steps for future study 
+Another analysis outside the scope of our project that could be undertaken is a biking justice analysis. Based on many socioeconomic factors from the Canadian census, this would show which neighbourhoods throughout the City of Toronto have access to safe and accessible biking and which neighbourhoods do not. Our team hopes that everyone in the City of Toronto has safe and equitable access to active transportation. However, this analysis was outside of our abilities given the tight timelines of the app challenge.
 
 --- 
 ## Technology Stack 
 ### Esri tools 
 ### Other tools / libraries 
 ### AI usage disclosure 
-
+- AI was used to troubleshoot the Cycling Indices Script when errors occurred.
 ---
 
 --- 
@@ -112,6 +126,16 @@
 ### Reproduction analysis (ArcPy NoteBook) 
 
 --- 
+
+## Citations
+
+Boyce et. al. (2000). Perceptions of safety at night in different lighting conditions. Lighting Research and Technology, 32(2): 79-91. https://doi.org/10.1177/096032710003200205
+
+Sears, J., Flynn, B. S., Aultman-Hall, L., & Dana, G. S. (2012). To Bike or Not to Bike: Seasonal Factors for Bicycle Commuting: Seasonal Factors for Bicycle Commuting. Transportation Research Record: Journal of the Transportation Research Board, 2314(1), 105-111. https://doi.org/10.3141/2314-14 (Original work published 2012)
+
+Ubhi, R. (2021). Are Dominant Routes the Safest Routes in a Bike Share System? An Investigation of Hamilton Bike Share using Weighted Level of Traffic Stress. ECCE Blog. https://ecce.esri.ca/mac-blog/2020/11/12/investigation-of-hamilton-bike-share-using-weighted-level-of-traffic-stress/
+  
+---
 
 ## Credits / Licensing 
 ### Dataset credits 
