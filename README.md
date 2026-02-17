@@ -142,6 +142,10 @@ Bicycles and Cycling. (n.d.). Average cycling speed for beginner and experienced
 
 Boyce et. al. (2000). Perceptions of safety at night in different lighting conditions. Lighting Research and Technology, 32(2): 79-91. https://doi.org/10.1177/096032710003200205
 
+Ecojustice. (2026, January 16). Inside Doug Ford’s attack on Bike Lanes. https://ecojustice.ca/news/doug-fords-attack-on-bike-lanes-how-it-started-and-what-comes-next/
+
+Ecojustice. (2026, February 6). Challenging ontario’s anti-bike Lane Law. https://ecojustice.ca/file/challenging-the-ontario-governments-anti-bike-lane-law/ 
+
 Garrard, J., Rissel, C., & Bauman, A. (2012). Health benefits of cycling. City cycling, 31, 31-56.
 
 INRIX. (2022). Signals Scored, 2022 Annual Summary. https://inrix.com/signals-scorecard/
@@ -150,11 +154,15 @@ Monazzam, R. M., et. al. (2021). Effect of cycling development as a non-motorize
 
 Legislative Assembly of Ontario. (2025). Bill 56, Building a More Competitive Economy Act, 2025. https://www.ola.org/en/legislative-business/bills/parliament-44/session-1/bill-56
 
+Ling, R., Rothman, L., Cloutier, M.-S., Macarthur, C., & Howard, A. (2020). Cyclist–motor vehicle collisions before and after implementation of cycle tracks in Toronto, Canada. Accident Analysis & Prevention, 135, 105360 https://doi.org/10.1016/j.aap.2019.105360 
+
 Oja, P., et. al. (2011). Health benefits of cycling, a systematic overview. Medicine and Science of Sports. https://doi.org/10.1111/j.1600-0838.2011.01299.x
 
 Sears, J., Flynn, B. S., Aultman-Hall, L., & Dana, G. S. (2012). To Bike or Not to Bike: Seasonal Factors for Bicycle Commuting: Seasonal Factors for Bicycle Commuting. Transportation Research Record: Journal of the Transportation Research Board, 2314(1), 105-111. https://doi.org/10.3141/2314-14 (Original work published 2012)
 
 Ubhi, R. (2021). Are Dominant Routes the Safest Routes in a Bike Share System? An Investigation of Hamilton Bike Share using Weighted Level of Traffic Stress. ECCE Blog. https://ecce.esri.ca/mac-blog/2020/11/12/investigation-of-hamilton-bike-share-using-weighted-level-of-traffic-stress/
+
+Wynes, S., & Matthews, H. D. (2023). Missing density: assessing support for compact cities among Canadian municipal officials and members of the public. Climate Policy, 23(8), 1019–1032. https://doi.org/10.1080/14693062.2023.2190870 
   
 ---
 
