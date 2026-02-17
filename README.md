@@ -12,7 +12,9 @@
 
 **Matthew Woodward:** 
 I am a fourth-year student at the University of Waterloo majoring in Geography and Environmental Management and minoring in Earth Sciences. I was a gold medalist at the International Geography Olympiad, placing eighteenth worldwide in 2022. I am also a recent inductee into the Royal Canadian Geographical Society’s College of Fellows. My areas of interest include geographic education, GIS applications in species conservation, statistical analysis of meteorological flux data, and GIS applications in tracking and documenting meteorological hazards. You can find more of my geographic education work on the True North Geography YouTube channel, which aims to increase the accessibility of geographic education to Canadians by bringing in-field examples of geographic processes to a free platform.
-  
+
+<img src="AppChallengeImages/Julianne.jpg" style="height:300px; margin:0 .5em .25em 0; float: left;" /> 
+
 **Julianne Ho**
 I am a third-year undergraduate student at UW in the Geography and Environmental Management program specializing in Geomatics and minoring in Urban Studies, though I was first brought into spatial sciences because of a love for ecology. I have always been interested in how organisms move and interact with their environment, and that extends to people! My most recent interests in applying GIS are in reducing bird collisions on campus, contributing to federal Species at Risk recovery and conservation, and studying severe weather impacts on people and ecosystems. In my free time, I like to dillydally with birding, geocaching and kendo.
 
