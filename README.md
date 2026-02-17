@@ -19,7 +19,7 @@ I am a fourth-year student at the University of Waterloo majoring in Geography a
 --- 
 
 ## Mission Statement 
-Across Canada, bike lanes have become "a convenient scapegoat for poltical leaders keen to avoid evdidence based decsion making"(Ecojustice, 2025). In Toronto, the Ford government moved to remove protected bike lanes on Bloor, University, and Yonge through the Highway Traffic Act amendments in Reducing Gridlock, Saving You Time Act" (Ecojustice, 2025).
+Across Canada, bike lanes have become "a convenient scapegoat for poltical leaders keen to avoid evdidence based decsion making"(Ecojustice, 2025). In Toronto, the Ford government moved to remove protected bike lanes on "Bloor, University, and Yonge through the Highway Traffic Act amendments in Reducing Gridlock, Saving You Time Act" (Ecojustice, 2025).
 
 Our mission is to give Toronto planners a clear, evidence based way to priortize cycling investments, by scoring bike safety bike accesibility and a combined multi criteria analysis to show where upgrades in biking structure will matter most. Protected infrastructure in Tornoto has been linked to safer streets. After cyccle tracks were installed, there was a "38% reduction in cyclist-motor-vehicle collision rates after accounting for ridership" (Ling et al., 2020). Furthermore, "Canadians who support climate action are more likely to back low carbon transport than compact city polices" (Wynes & Matthews, 2023). Together, these results support a simple goal: turning Toronto cycling data into clear priorities for safer and more connected infrasructure can help decision makers invest where the need is greatest, justifiy projects with evidence and build a biking network that more people feel safe using everyday. 
 
