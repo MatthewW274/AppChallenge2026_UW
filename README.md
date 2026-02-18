@@ -32,7 +32,9 @@ That's why we made Bike2Basics. We want our app to advocate for active transport
 Our mission is to give Toronto planners a clear, evidence based tool to prioritize cycling investments. Our app achieves this by allowing for adjustable weighting of bike safety metrics and bike accessibility metrics to produce a combined multi-criteria analysis that shows where upgrades in biking infrastructure will matter most. Protected infrastructure in Toronto has been linked to safer streets. After cycle tracks were installed, there was a "38% reduction in cyclist-motor-vehicle collision rates after accounting for ridership" (Ling et al., 2020). Other data has proven that "Canadians who support climate action are more likely to back low carbon transport than compact city policies" (Wynes & Matthews, 2023). Together, these results support a simple fact: turning Toronto cycling data into visible priorities for safer and more connected infrastructure can help decision-makers invest where the need is greatest, justify projects with evidence, and build a biking network that makes people feel safer every day. 
 
 ## App Characteristics
-### What the app does 
+### What the app does
+The app allows user to use the Point Allocation Method to assign weights to each criteria (factor) in how significantly they affect the individual indices' scores, followed by weighting how significantly each index contributes to overall usability.
+
 ### Why it's useful and unique 
 ### Key decisions it supports 
 
@@ -94,7 +96,7 @@ Methods are mainly outlined in our Jupyter Notebook (CyclingComfortAnalysisCode.
 --- 
 
 ## User Guide 
-### Common Controls 
+### Common Controls - Tab Navigation Between Indices, Weight Adjustments
 ### Tab 1 - Safety Index 
 ### Tab 2 - Accessibility Index 
 ### Tab 3 - Combined Index 
@@ -128,6 +130,7 @@ Another analysis outside the scope of our project that could be undertaken is a 
 ### Other tools / libraries 
 ### AI usage disclosure 
 - AI was used to troubleshoot the Cycling Comfort Analysis Script when errors occurred.
+- AI was used to troubleshoot broken web app functionality.
 --- 
 
 ## Citations
