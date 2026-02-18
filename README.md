@@ -64,7 +64,7 @@ In any layer, the higher the score, the harder it is to be comfortable biking in
   |Topographic Mapping - Poles|City of Toronto|
 
 ## Methods 
-Methods are mainly outlined in our Jupyter Notebook, but a glossary of notebook steps has been put together under each category here to help with ease of code navigation.
+Methods are mainly outlined in our Jupyter Notebook (CyclingComfortAnalysisCode.ipynb), but a glossary of notebook steps has been put together under each category here to help with ease of code navigation.
 ### Preprocessing
 - Import Packages
 - Input Data Paths
@@ -127,9 +127,7 @@ Another analysis outside the scope of our project that could be undertaken is a 
 ### Esri tools 
 ### Other tools / libraries 
 ### AI usage disclosure 
-- AI was used to troubleshoot the Cycling Indices Script when errors occurred.
----
-
+- AI was used to troubleshoot the Cycling Comfort Analysis Script when errors occurred.
 --- 
 
 ## Citations
