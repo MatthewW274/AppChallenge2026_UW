@@ -1,6 +1,8 @@
 # Team Dubious Undergrad Bikers (DUB)
 *Bike to Basics* 
 
+<img src="AppChallengeImages/Bike2Basics__2_Logo.png" style="height:300px; margin:0 .5em .25em 0; float: left;" /> 
+
 ## Links 
 - **Live App:** <link>
 - **Video Demo:** <link>
