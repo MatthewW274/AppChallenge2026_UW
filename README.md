@@ -6,7 +6,6 @@
 ## Links 
 - **Live App:** <link>
 - **Video Demo:** <link>
--  **Submission Link:** <link>
 
 ## Team 
 
