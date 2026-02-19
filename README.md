@@ -33,7 +33,7 @@ That's why we made Bike2Basics. We want our app to advocate for active transport
 
 Our mission is to give Toronto planners a clear, evidence based tool to prioritize cycling investments. Our app achieves this by allowing for adjustable weighting of bike safety metrics and bike accessibility metrics to produce a combined multi-criteria analysis that shows where upgrades in biking infrastructure will matter most. Protected infrastructure in Toronto has been linked to safer streets. After cycle tracks were installed, there was a "38% reduction in cyclist-motor-vehicle collision rates after accounting for ridership" (Ling et al., 2020). Other data has proven that "Canadians who support climate action are more likely to back low carbon transport than compact city policies" (Wynes & Matthews, 2023). Together, these results support a simple fact: turning Toronto cycling data into visible priorities for safer and more connected infrastructure can help decision-makers invest where the need is greatest, justify projects with evidence, and build a biking network that makes people feel safer every day. 
 
-## App Characteristics
+## App Characteristics 
 ### What the app does
 The app allows user to use the Point Allocation Method to assign weights to each criteria (factor) in how significantly they affect the individual indices' scores, followed by weighting how significantly each index contributes to overall usability.
 
@@ -42,14 +42,14 @@ The app allows user to use the Point Allocation Method to assign weights to each
 
 --- 
 
-## App Overview 
+## App Overview and User Guide 
 ### Study Area 
 Our study area is limited to the City of Toronto's city limits. This area has a diverse array of biking infrastructure that will help us analyze the ease and comfort of biking throughout the city.
+### Common Controls - Tab Navigation Between Indices, Weight Adjustments
 ### Three Tabs 
 - Tab 1: Safety Index
 - Tab 2: Accessibility Index
 - Tab 3: Combined Index
-
 ### How to interpret the scores (high vs low)
 
 In any layer, the higher the score, the harder it is to be comfortable biking in that area. This can be caused by factors including but not limited to unsafe bike infrastructure, high bike theft, and a high density of bike collisions with cars.
@@ -94,15 +94,6 @@ Methods are mainly outlined in our Jupyter Notebook (CyclingComfortAnalysisCode.
 - Spatial Join Traffic Light Count to Centrelines Layer
 - Calculate Bike Travel Time
 - Clean up Centrelines Layer
-
---- 
-
-## User Guide 
-### Common Controls - Tab Navigation Between Indices, Weight Adjustments
-### Tab 1 - Safety Index 
-### Tab 2 - Accessibility Index 
-### Tab 3 - Combined Index 
-
 
 --- 
 
