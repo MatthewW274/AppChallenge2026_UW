@@ -51,7 +51,8 @@ The app supports real planning and policy decisions, including: where to build n
 ### Study Area 
 Our study area is limited to the City of Toronto's city limits. This area has a diverse array of biking infrastructure that will help us analyze the ease and comfort of biking throughout the city.
 ### Common Controls - Tab Navigation Between Indices, Weight Adjustments
-### Four Tabs 
+
+### Three Tabs 
 - Tab 1: Safety Index
 - Tab 2: Accessibility Index
 - Tab 3: Combined Index (including speed)
