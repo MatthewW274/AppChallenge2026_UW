@@ -1,5 +1,5 @@
 # Team Dubious Undergrad Bikers (DUB)
-*Bike2Basics* 
+## Bike2Basics
 
 <img src="AppChallengeImages/Bike2Basics_Blue.png" style="height:300px; margin:0 .5em .25em 0; float: left;" /> 
 
