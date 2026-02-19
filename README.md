@@ -59,7 +59,7 @@ In any layer, the higher the score, the harder it is to be comfortable biking in
 ## Data Sources
   | Source | Data Provider |
   |---|---|
-  |Road/Trail Centrelines|City of Toronto| 
+  |Road/Trail Centrelines|City of Toronto|
   |Bicycle Theft Reports|Toronto Police Services|
   |Cyclists Killed or Seriously Injured|Toronto Police Services|
   |Toronto Cycling Network|City of Toronto|
