@@ -35,7 +35,7 @@ Our mission is to give Toronto planners a clear, evidence based tool to prioriti
 
 ## App Characteristics 
 ### What the app does
-The app allows user to use the Point Allocation Method to assign weights to each criteria (factor) in how significantly they affect the individual indices' scores, followed by weighting how significantly each index contributes to overall usability.
+The app allows user to use the Point Allocation Method to assign weights to each criteria (factor) in how significantly they affect the individual indices' scores, followed by weighting how significantly each index contributes to overall usability. 
 
 ### Why it's useful and unique 
 ### Key decisions it supports 
@@ -46,10 +46,10 @@ The app allows user to use the Point Allocation Method to assign weights to each
 ### Study Area 
 Our study area is limited to the City of Toronto's city limits. This area has a diverse array of biking infrastructure that will help us analyze the ease and comfort of biking throughout the city.
 ### Common Controls - Tab Navigation Between Indices, Weight Adjustments
-### Three Tabs 
+### Four Tabs 
 - Tab 1: Safety Index
 - Tab 2: Accessibility Index
-- Tab 3: Combined Index
+- Tab 3: Combined Index (including speed)
 ### How to interpret the scores (high vs low)
 
 In any layer, the higher the score, the harder it is to be comfortable biking in that area. This can be caused by factors including but not limited to unsafe bike infrastructure, high bike theft, and a high density of bike collisions with cars.
