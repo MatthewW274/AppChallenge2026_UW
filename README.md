@@ -100,7 +100,7 @@ Methods are mainly outlined in our Jupyter Notebook (CyclingComfortAnalysisCode.
 - Create Bikeshare Density Raster
 - Speed Index Method
 - Create Travel Time Raster
-## Pre Uploading Steps
+## Pre-Uploading Steps
 - Reclassify all Raster from 1-5
 - Add Surface Information to Centrelines
 - Clean up Centrelines Layer
