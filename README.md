@@ -4,7 +4,7 @@
 <img src="AppChallengeImages/Bike2Basics_Logo_Final.png" style="height:300px; margin:0 .5em .25em 0; float: left;" /> 
 
 ## Links 
-- **Live App:** <link>
+- **Live App:** https://mattheww274.github.io/AppChallenge2026_UW/
 - **Video Demo:** <link>
 - **ArcGIS Hub Site:**
 
